@@ -15,6 +15,7 @@ miiphyutil.c:235:5:miiphy_read	24	static
 miiphyutil.c:263:5:miiphy_write	24	static
 miiphyutil.c:279:6:miiphy_listdev	16	static
 miiphyutil.c:308:5:miiphy_info	32	static
-miiphyutil.c:516:5:miiphy_is_1000base_x	16	static
+miiphyutil.c:350:5:miiphy_reset	32	static
 miiphyutil.c:393:5:miiphy_speed	24	static
 miiphyutil.c:451:5:miiphy_duplex	24	static
+miiphyutil.c:516:5:miiphy_is_1000base_x	0	static

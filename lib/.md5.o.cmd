@@ -1,4 +1,4 @@
-cmd_lib/md5.o := /home/anil/EmbeddedLinux_Tools/BBB_Compiler/gcc-linaro-6.4.1-2017.08-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Wp,-MD,lib/.md5.o.d  -nostdinc -isystem /home/anil/EmbeddedLinux_Tools/BBB_Compiler/gcc-linaro-6.4.1-2017.08-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.4.1/include -Iinclude    -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -fshort-wchar -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -Werror=date-time -D__ARM__ -Wa,-mimplicit-it=always -mthumb -mthumb-interwork -mabi=aapcs-linux -mword-relocations -fno-pic -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a -D__LINUX_ARM_ARCH__=7 -I./arch/arm/mach-omap2/include    -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(md5)"  -D"KBUILD_MODNAME=KBUILD_STR(md5)" -c -o lib/md5.o lib/md5.c
+cmd_lib/md5.o := arm-linux-gnueabi-gcc -Wp,-MD,lib/.md5.o.d  -nostdinc -isystem /usr/lib/gcc-cross/arm-linux-gnueabi/5/include -Iinclude    -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -fshort-wchar -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -Werror=date-time -D__ARM__ -Wa,-mimplicit-it=always -mthumb -mthumb-interwork -mabi=aapcs-linux -mword-relocations -fno-pic -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a -D__LINUX_ARM_ARCH__=7 -I./arch/arm/mach-omap2/include    -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(md5)"  -D"KBUILD_MODNAME=KBUILD_STR(md5)" -c -o lib/md5.o lib/md5.c
 
 source_lib/md5.o := lib/md5.c
 
@@ -7,7 +7,7 @@ deps_lib/md5.o := \
     $(wildcard include/config/watchdog.h) \
   include/compiler.h \
     $(wildcard include/config/use/stdint.h) \
-  /home/anil/EmbeddedLinux_Tools/BBB_Compiler/gcc-linaro-6.4.1-2017.08-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/6.4.1/include/stddef.h \
+  /usr/lib/gcc-cross/arm-linux-gnueabi/5/include/stddef.h \
   include/linux/string.h \
   include/linux/types.h \
     $(wildcard include/config/uid16.h) \
@@ -18,7 +18,7 @@ deps_lib/md5.o := \
     $(wildcard include/config/arm64.h) \
     $(wildcard include/config/phys/64bit.h) \
     $(wildcard include/config/dma/addr/t/64bit.h) \
-  /home/anil/EmbeddedLinux_Tools/BBB_Compiler/gcc-linaro-6.4.1-2017.08-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/6.4.1/include/stdbool.h \
+  /usr/lib/gcc-cross/arm-linux-gnueabi/5/include/stdbool.h \
   arch/arm/include/asm/string.h \
     $(wildcard include/config/use/arch/memcpy.h) \
     $(wildcard include/config/use/arch/memset.h) \
@@ -326,7 +326,7 @@ deps_lib/md5.o := \
   include/asm-generic/bitops/fls64.h \
   include/linux/bug.h \
   include/vsprintf.h \
-  /home/anil/EmbeddedLinux_Tools/BBB_Compiler/gcc-linaro-6.4.1-2017.08-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/6.4.1/include/stdarg.h \
+  /usr/lib/gcc-cross/arm-linux-gnueabi/5/include/stdarg.h \
   include/linux/build_bug.h \
   include/linux/printk.h \
     $(wildcard include/config/loglevel.h) \

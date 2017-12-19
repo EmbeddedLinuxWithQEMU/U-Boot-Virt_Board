@@ -1,5 +1,5 @@
 fdt.c:58:5:fdt_check_header	0	static
-fdt.c:77:13:fdt_offset_ptr	12	static
+fdt.c:77:13:fdt_offset_ptr	4	static
 fdt.c:94:10:fdt_next_tag	24	static
 fdt.c:144:5:_fdt_check_node_offset	16	static
 fdt.c:153:5:_fdt_check_prop_offset	16	static

@@ -1,1 +1,1 @@
-cmd_drivers/pci/built-in.o :=  rm -f drivers/pci/built-in.o; /home/anil/EmbeddedLinux_Tools/BBB_Compiler/gcc-linaro-6.4.1-2017.08-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar rcs drivers/pci/built-in.o
+cmd_drivers/pci/built-in.o :=  arm-linux-gnueabi-ld.bfd     -r -o drivers/pci/built-in.o drivers/pci/pci_rom.o drivers/pci/pci-uclass.o drivers/pci/pci_auto.o drivers/pci/pci_auto_common.o drivers/pci/pci_common.o drivers/pci/pcie_ecam_generic.o 

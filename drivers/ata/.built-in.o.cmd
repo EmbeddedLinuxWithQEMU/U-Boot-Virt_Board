@@ -1,1 +1,1 @@
-cmd_drivers/ata/built-in.o :=  rm -f drivers/ata/built-in.o; /home/anil/EmbeddedLinux_Tools/BBB_Compiler/gcc-linaro-6.4.1-2017.08-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar rcs drivers/ata/built-in.o
+cmd_drivers/ata/built-in.o :=  arm-linux-gnueabi-ld.bfd     -r -o drivers/ata/built-in.o drivers/ata/ahci-uclass.o drivers/ata/ahci-pci.o drivers/ata/ahci.o drivers/ata/libata.o 

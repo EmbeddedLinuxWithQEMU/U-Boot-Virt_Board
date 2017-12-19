@@ -1,1 +1,1 @@
-cmd_drivers/sysreset/built-in.o :=  rm -f drivers/sysreset/built-in.o; /home/anil/EmbeddedLinux_Tools/BBB_Compiler/gcc-linaro-6.4.1-2017.08-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar rcs drivers/sysreset/built-in.o
+cmd_drivers/sysreset/built-in.o :=  arm-linux-gnueabi-ld.bfd     -r -o drivers/sysreset/built-in.o drivers/sysreset/sysreset-uclass.o drivers/sysreset/sysreset_psci.o 

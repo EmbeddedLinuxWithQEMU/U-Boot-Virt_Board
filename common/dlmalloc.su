@@ -1,5 +1,5 @@
 dlmalloc.c:581:7:sbrk	16	static
-dlmalloc.c:601:6:mem_malloc_init	4	static
+dlmalloc.c:601:6:mem_malloc_init	0	static
 dlmalloc.c:2157:5:malloc_trim	16	static
 dlmalloc.c:1509:6:free	16	static
 dlmalloc.c:1237:9:malloc	40	static

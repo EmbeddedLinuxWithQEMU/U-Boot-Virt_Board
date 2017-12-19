@@ -10,8 +10,8 @@ rndis.c:1160:6:rndis_set_param_dev	8	static
 rndis.c:1178:5:rndis_set_param_vendor	0	static
 rndis.c:1192:5:rndis_set_param_medium	0	static
 rndis.c:1204:6:rndis_add_hdr	16	static
-rndis.c:1216:6:rndis_free_response	24	static
-rndis.c:1232:5:rndis_get_next_response	8	static
+rndis.c:1216:6:rndis_free_response	16	static
+rndis.c:1232:5:rndis_get_next_response	12	static
 rndis.c:1001:6:rndis_uninit	16	static
 rndis.c:1272:5:rndis_rm_hdr	8	static
 rndis.c:1301:5:rndis_init	0	static

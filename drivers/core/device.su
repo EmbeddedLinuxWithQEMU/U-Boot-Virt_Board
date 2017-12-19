@@ -12,9 +12,9 @@ device.c:453:7:dev_get_priv	8	static
 device.c:463:7:dev_get_uclass_priv	8	static
 device.c:473:7:dev_get_parent_priv	8	static
 device.c:498:5:device_get_child	16	static
-device.c:510:5:device_find_child_by_seq	20	static
-device.c:530:5:device_get_child_by_seq	24	static
-device.c:548:5:device_find_child_by_of_offset	12	static
+device.c:510:5:device_find_child_by_seq	8	static
+device.c:530:5:device_get_child_by_seq	32	static
+device.c:548:5:device_find_child_by_of_offset	0	static
 device.c:565:5:device_get_child_by_of_offset	24	static
 device.c:593:5:device_get_global_by_of_offset	16	static
 device.c:601:5:device_find_first_child	0	static

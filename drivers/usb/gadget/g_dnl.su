@@ -1,4 +1,4 @@
-composite.c:247:12:count_configs	12	static
+composite.c:247:12:count_configs	8	static
 composite.c:484:13:collect_langs	16	static
 composite.c:685:13:composite_setup_complete	0	static
 composite.c:1012:1:composite_suspend	16	static

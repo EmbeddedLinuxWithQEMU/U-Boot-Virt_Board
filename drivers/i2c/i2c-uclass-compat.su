@@ -1,5 +1,5 @@
 i2c-uclass-compat.c:14:12:i2c_compat_get_device	24	static
-i2c-uclass-compat.c:33:5:i2c_probe	24	static
+i2c-uclass-compat.c:33:5:i2c_probe	16	static
 i2c-uclass-compat.c:50:5:i2c_read	24	static
 i2c-uclass-compat.c:63:5:i2c_write	24	static
 i2c-uclass-compat.c:76:5:i2c_get_bus_num_fdt	16	static

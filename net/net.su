@@ -15,11 +15,11 @@ net.c:734:6:net_set_udp_handler	0	static
 net.c:743:11:net_get_arp_handler	0	static
 net.c:748:6:net_set_arp_handler	0	static
 net.c:764:6:net_set_timeout_handler	8	static
-net.c:1029:6:net_process_received_packet	40	static
+net.c:1029:6:net_process_received_packet	32	static
 net.c:1369:1:net_eth_hdr_size	0	static
 net.c:1381:5:net_set_ether	24	static
 net.c:1406:5:net_update_ether	16	static
-net.c:1429:6:net_set_ip_header	24	static
+net.c:1429:6:net_set_ip_header	16	static
 net.c:1450:6:net_set_udp_header	24	static
 net.c:779:5:net_send_udp_packet	40	static
 net.c:1474:6:copy_filename	0	static

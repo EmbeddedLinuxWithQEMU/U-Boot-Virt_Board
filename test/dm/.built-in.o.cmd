@@ -1,1 +1,1 @@
-cmd_test/dm/built-in.o :=  /home/anil/EmbeddedLinux_Tools/BBB_Compiler/gcc-linaro-6.4.1-2017.08-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld.bfd     -r -o test/dm/built-in.o test/dm/cmd_dm.o 
+cmd_test/dm/built-in.o :=  arm-linux-gnueabi-ld.bfd     -r -o test/dm/built-in.o test/dm/cmd_dm.o 

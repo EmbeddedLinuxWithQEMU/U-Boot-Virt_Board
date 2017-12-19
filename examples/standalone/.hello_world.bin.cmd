@@ -1,1 +1,1 @@
-cmd_examples/standalone/hello_world.bin := /home/anil/EmbeddedLinux_Tools/BBB_Compiler/gcc-linaro-6.4.1-2017.08-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-objcopy -O binary  examples/standalone/hello_world examples/standalone/hello_world.bin
+cmd_examples/standalone/hello_world.bin := arm-linux-gnueabi-objcopy -O binary  examples/standalone/hello_world examples/standalone/hello_world.bin

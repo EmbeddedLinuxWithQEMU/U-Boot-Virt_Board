@@ -1,7 +1,7 @@
 efi_device_path.c:261:17:dp_size	0	static
 efi_device_path.c:39:14:dp_alloc	16	static
 efi_device_path.c:284:14:dp_fill	16	static
-efi_device_path.c:373:14:dp_part_fill.part.1	144	static
+efi_device_path.c:373:14:dp_part_fill	136	static
 efi_device_path.c:53:25:efi_dp_next	0	static
 efi_device_path.c:71:5:efi_dp_match	16	static
 efi_device_path.c:180:10:efi_dp_size	8	static

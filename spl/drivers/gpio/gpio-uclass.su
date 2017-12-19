@@ -1,11 +1,11 @@
 gpio-uclass.c:497:12:get_function	24	static
 gpio-uclass.c:30:12:gpio_to_device	24	static
 gpio-uclass.c:274:12:check_reserved	24	static
-gpio-uclass.c:796:12:gpio_renumber	32	static
+gpio-uclass.c:796:12:gpio_renumber	24	static
 gpio-uclass.c:844:12:gpio_pre_remove	8	static
 gpio-uclass.c:833:12:gpio_post_probe	8	static
 gpio-uclass.c:53:5:dm_gpio_lookup_name	40	static
-gpio-uclass.c:92:5:gpio_lookup_name	40	static
+gpio-uclass.c:92:5:gpio_lookup_name	32	static
 gpio-uclass.c:117:5:gpio_xlate_offs_flags	0	static
 gpio-uclass.c:145:5:dm_gpio_request	24	static
 gpio-uclass.c:197:5:gpio_request	24	static

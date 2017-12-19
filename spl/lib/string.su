@@ -16,7 +16,7 @@ string.c:296:8:strcspn	16	static
 string.c:314:8:strdup	16	static
 string.c:335:8:strspn	16	static
 string.c:361:8:strpbrk	12	static
-string.c:383:8:strtok	16	static
+string.c:383:8:strtok	24	static
 string.c:416:8:strsep	16	static
 string.c:440:7:strswab	0	static
 string.c:542:8:memmove	16	static

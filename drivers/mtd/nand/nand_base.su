@@ -23,7 +23,7 @@ nand_base.c:2819:13:nand_sync	0	static
 nand_base.c:2928:13:nand_set_defaults	0	static
 nand_base.c:3079:12:nand_setup_read_retry_micron	24	static
 nand_base.c:2127:12:nand_write_subpage_hwecc	56	static
-nand_base.c:925:12:nand_check_erased_buf	16	static
+nand_base.c:925:12:nand_check_erased_buf	20	static
 nand_base.c:346:12:nand_block_bad	24	static
 nand_base.c:2241:12:nand_write_page	48	static
 nand_base.c:868:12:nand_wait	16	static

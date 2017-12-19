@@ -1,4 +1,4 @@
-musb_gadget.c:1027:12:musb_gadget_enable	20	static
+musb_gadget.c:1027:12:musb_gadget_enable	24	static
 musb_gadget.c:1286:6:musb_free_request	0	static
 musb_gadget.c:1527:12:musb_gadget_fifo_status	0	static
 musb_gadget.c:1550:13:musb_gadget_fifo_flush	12	static
@@ -12,7 +12,7 @@ musb_gadget.c:1813:1:init_peripheral_ep	32	static
 musb_gadget.c:1750:12:musb_gadget_pullup	12	static
 musb_gadget.c:172:6:musb_g_giveback	16	static
 musb_gadget.c:635:13:rxstate	32	static
-musb_gadget.c:1371:12:musb_gadget_dequeue	16	static
+musb_gadget.c:1371:12:musb_gadget_dequeue	8	static
 musb_gadget.c:1212:12:musb_gadget_disable	16	static
 musb_gadget.c:486:6:musb_g_tx	48	static
 musb_gadget.c:905:6:musb_g_rx	8	static

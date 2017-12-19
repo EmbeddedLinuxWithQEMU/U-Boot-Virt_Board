@@ -1,4 +1,4 @@
-bootm_os.c:39:13:copy_args	24	static
+bootm_os.c:39:13:copy_args	32	static
 bootm_os.c:147:12:do_bootm_rtems	8	static
 bootm_os.c:213:12:do_bootm_plan9	24	static
 bootm_os.c:17:12:do_bootm_standalone	16	static

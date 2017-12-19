@@ -1,1 +1,1 @@
-cmd_drivers/firmware/built-in.o :=  rm -f drivers/firmware/built-in.o; /home/anil/EmbeddedLinux_Tools/BBB_Compiler/gcc-linaro-6.4.1-2017.08-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar rcs drivers/firmware/built-in.o
+cmd_drivers/firmware/built-in.o :=  arm-linux-gnueabi-ld.bfd     -r -o drivers/firmware/built-in.o drivers/firmware/firmware-uclass.o drivers/firmware/psci.o 

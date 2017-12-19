@@ -1,4 +1,4 @@
-cmd_spl/arch/arm/lib/reloc_arm_efi.o := /home/anil/EmbeddedLinux_Tools/BBB_Compiler/gcc-linaro-6.4.1-2017.08-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Wp,-MD,spl/arch/arm/lib/.reloc_arm_efi.o.d  -nostdinc -isystem /home/anil/EmbeddedLinux_Tools/BBB_Compiler/gcc-linaro-6.4.1-2017.08-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.4.1/include -Iinclude    -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -DCONFIG_SPL_BUILD -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -fshort-wchar -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -Werror=date-time -D__ARM__ -Wa,-mimplicit-it=always -mthumb -mthumb-interwork -mabi=aapcs-linux -mno-unaligned-access -fno-common -msoft-float -pipe -march=armv7-a -D__LINUX_ARM_ARCH__=7 -I./arch/arm/mach-omap2/include -fpic -fshort-wchar    -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(reloc_arm_efi)"  -D"KBUILD_MODNAME=KBUILD_STR(reloc_arm_efi)" -c -o spl/arch/arm/lib/reloc_arm_efi.o arch/arm/lib/reloc_arm_efi.c
+cmd_spl/arch/arm/lib/reloc_arm_efi.o := arm-linux-gnueabi-gcc -Wp,-MD,spl/arch/arm/lib/.reloc_arm_efi.o.d  -nostdinc -isystem /usr/lib/gcc-cross/arm-linux-gnueabi/5/include -Iinclude    -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -DCONFIG_SPL_BUILD -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -fshort-wchar -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -Werror=date-time -D__ARM__ -Wa,-mimplicit-it=always -mthumb -mthumb-interwork -mabi=aapcs-linux -mno-unaligned-access -fno-common -msoft-float -pipe -march=armv7-a -D__LINUX_ARM_ARCH__=7 -I./arch/arm/mach-omap2/include -fpic -fshort-wchar    -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(reloc_arm_efi)"  -D"KBUILD_MODNAME=KBUILD_STR(reloc_arm_efi)" -c -o spl/arch/arm/lib/reloc_arm_efi.o arch/arm/lib/reloc_arm_efi.c
 
 source_spl/arch/arm/lib/reloc_arm_efi.o := arch/arm/lib/reloc_arm_efi.c
 
@@ -18,7 +18,7 @@ deps_spl/arch/arm/lib/reloc_arm_efi.o := \
     $(wildcard include/config/arm64.h) \
     $(wildcard include/config/phys/64bit.h) \
     $(wildcard include/config/dma/addr/t/64bit.h) \
-  /home/anil/EmbeddedLinux_Tools/BBB_Compiler/gcc-linaro-6.4.1-2017.08-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/6.4.1/include/stdbool.h \
+  /usr/lib/gcc-cross/arm-linux-gnueabi/5/include/stdbool.h \
   arch/arm/include/asm/string.h \
     $(wildcard include/config/spl/use/arch/memcpy.h) \
     $(wildcard include/config/spl/use/arch/memset.h) \
@@ -271,7 +271,7 @@ deps_spl/arch/arm/lib/reloc_arm_efi.o := \
   include/linux/linux_string.h \
   include/elf.h \
   include/compiler.h \
-  /home/anil/EmbeddedLinux_Tools/BBB_Compiler/gcc-linaro-6.4.1-2017.08-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/6.4.1/include/stddef.h \
+  /usr/lib/gcc-cross/arm-linux-gnueabi/5/include/stddef.h \
   arch/arm/include/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/linux/compiler.h \

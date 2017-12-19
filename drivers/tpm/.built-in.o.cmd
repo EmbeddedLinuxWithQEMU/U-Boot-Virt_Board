@@ -1,1 +1,1 @@
-cmd_drivers/tpm/built-in.o :=  rm -f drivers/tpm/built-in.o; /home/anil/EmbeddedLinux_Tools/BBB_Compiler/gcc-linaro-6.4.1-2017.08-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar rcs drivers/tpm/built-in.o
+cmd_drivers/tpm/built-in.o :=  rm -f drivers/tpm/built-in.o; arm-linux-gnueabi-ar rcs drivers/tpm/built-in.o

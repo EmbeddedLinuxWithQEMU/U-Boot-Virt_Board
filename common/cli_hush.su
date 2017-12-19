@@ -21,7 +21,7 @@ cli_hush.c:2160:5:set_local_var	32	static
 cli_hush.c:3524:14:insert_var_value_sub	48	static
 cli_hush.c:2251:6:unset_local_var	16	static
 cli_hush.c:3259:5:parse_string_outer	48	static
-cli_hush.c:1762:12:run_list_real	80	static
+cli_hush.c:1762:12:run_list_real	88	static
 cli_hush.c:3185:12:parse_stream_outer	96	static
 cli_hush.c:3290:5:parse_file_outer	32	static
 cli_hush.c:3318:5:u_boot_hush_start	16	static

@@ -1,4 +1,4 @@
-uclass.c:23:16:uclass_find	8	static
+uclass.c:23:16:uclass_find	0	static
 uclass.c:105:5:uclass_destroy	16	static
 uclass.c:139:5:uclass_get	24	static
 uclass.c:152:13:uclass_get_name	16	static
@@ -6,7 +6,7 @@ uclass.c:161:5:uclass_find_device	24	static
 uclass.c:184:5:uclass_find_first_device	16	static
 uclass.c:201:5:uclass_find_next_device	0	static
 uclass.c:214:5:uclass_find_device_by_name	32	static
-uclass.c:238:5:uclass_find_device_by_seq	32	static
+uclass.c:238:5:uclass_find_device_by_seq	24	static
 uclass.c:267:5:uclass_find_device_by_of_offset	24	static
 uclass.c:291:5:uclass_find_device_by_ofnode	24	static
 uclass.c:349:5:uclass_get_device_by_driver	24	static

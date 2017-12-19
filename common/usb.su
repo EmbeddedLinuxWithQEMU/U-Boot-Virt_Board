@@ -1,7 +1,7 @@
-usb.c:315:1:usb_set_maxpacket_ep	12	static
+usb.c:315:1:usb_set_maxpacket_ep	4	static
 usb.c:198:5:usb_submit_int_msg	0	static
-usb.c:213:5:usb_control_msg	160	static
-usb.c:555:12:usb_get_descriptor	40	static
+usb.c:213:5:usb_control_msg	152	static
+usb.c:555:12:usb_get_descriptor	32	static
 usb.c:920:12:get_descriptor_len	608	static
 usb.c:945:12:usb_setup_descriptor	8	static
 usb.c:721:12:usb_get_string	56	static
@@ -11,11 +11,11 @@ usb.c:294:5:usb_maxpacket	0	static
 usb.c:526:5:usb_clear_halt	48	static
 usb.c:567:5:usb_get_configuration_len	152	static
 usb.c:590:5:usb_get_configuration_no	16	static
-usb.c:620:5:usb_set_interface	48	static
-usb.c:678:5:usb_set_protocol	40	static
-usb.c:688:5:usb_set_idle	40	static
-usb.c:698:5:usb_get_report	40	static
-usb.c:710:5:usb_get_class_descriptor	40	static
+usb.c:620:5:usb_set_interface	40	static
+usb.c:678:5:usb_set_protocol	32	static
+usb.c:688:5:usb_set_idle	32	static
+usb.c:698:5:usb_get_report	32	static
+usb.c:710:5:usb_get_class_descriptor	32	static
 usb.c:797:5:usb_string	600	static
 usb.c:1069:5:usb_select_config	64	static
 usb.c:1152:5:usb_setup_device	48	static

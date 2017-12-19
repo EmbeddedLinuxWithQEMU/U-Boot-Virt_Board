@@ -50,7 +50,7 @@ efi_boottime.c:616:28:efi_signal_event_ext	8	static
 efi_boottime.c:374:14:efi_create_event	20	static
 efi_boottime.c:423:28:efi_create_event_ext	24	static
 efi_boottime.c:444:6:efi_timer_check	32	static
-efi_boottime.c:673:28:efi_check_event	16	static
+efi_boottime.c:673:28:efi_check_event	8	static
 efi_boottime.c:554:28:efi_wait_for_event	24	static
 efi_boottime.c:485:14:efi_set_timer	32	static
 efi_boottime.c:534:28:efi_set_timer_ext	16	static

@@ -1,4 +1,4 @@
-uclass.c:23:16:uclass_find	8	static
+uclass.c:23:16:uclass_find	0	static
 uclass.c:105:5:uclass_destroy	8	static
 uclass.c:139:5:uclass_get	16	static
 uclass.c:152:13:uclass_get_name	16	static

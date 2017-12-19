@@ -10,7 +10,6 @@ SECTIONS
   *(.__image_copy_start)
   *(.vectors)
   arch/arm/cpu/armv7/start.o (.text*)
-  board/ti/am335x/built-in.o (.text*)
   *(.text*)
  }
  . = ALIGN(4);
@@ -64,7 +63,6 @@ SECTIONS
  {
   *(.__rel_dyn_end)
  }
- .hash : { *(.hash*) }
  .end :
  {
   *(.__end)
@@ -90,9 +88,10 @@ SECTIONS
  .dynbss : { *(.dynbss) }
  .dynstr : { *(.dynstr*) }
  .dynamic : { *(.dynamic*) }
- .gnu.hash : { *(.gnu.hash) }
  .plt : { *(.plt*) }
  .interp : { *(.interp*) }
+ .gnu.hash : { *(.gnu.hash) }
  .gnu : { *(.gnu*) }
  .ARM.exidx : { *(.ARM.exidx*) }
+ .gnu.linkonce.armexidx : { *(.gnu.linkonce.armexidx.*) }
 }

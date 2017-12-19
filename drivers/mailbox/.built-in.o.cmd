@@ -1,1 +1,1 @@
-cmd_drivers/mailbox/built-in.o :=  rm -f drivers/mailbox/built-in.o; /home/anil/EmbeddedLinux_Tools/BBB_Compiler/gcc-linaro-6.4.1-2017.08-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar rcs drivers/mailbox/built-in.o
+cmd_drivers/mailbox/built-in.o :=  rm -f drivers/mailbox/built-in.o; arm-linux-gnueabi-ar rcs drivers/mailbox/built-in.o

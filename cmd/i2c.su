@@ -10,11 +10,11 @@ i2c.c:1798:12:do_i2c_bus_num	16	static
 i2c.c:1681:13:show_bus	24	static
 i2c.c:1711:12:do_i2c_show_bus	24	static
 i2c.c:252:13:get_alen.constprop	0	static
-i2c.c:718:12:do_i2c_crc	40	static
+i2c.c:718:12:do_i2c_crc	32	static
 i2c.c:803:1:mod_i2c_mem.isra.1	48	static
 i2c.c:1907:12:do_i2c_nm	0	static
 i2c.c:1892:12:do_i2c_mm	0	static
-i2c.c:513:12:do_i2c_md	72	static
+i2c.c:513:12:do_i2c_md	64	static
 i2c.c:294:12:do_i2c_read	32	static
 i2c.c:632:12:do_i2c_mw	32	static
 i2c.c:347:12:do_i2c_write	40	static

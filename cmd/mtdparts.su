@@ -12,7 +12,7 @@ mtdparts.c:735:12:device_delall.constprop	24	static
 mtdparts.c:972:12:mtd_devices_init	8	static
 mtdparts.c:302:12:get_mtd_info.constprop	24	static
 mtdparts.c:413:12:part_validate	80	static
-mtdparts.c:791:20:device_find	16	static
+mtdparts.c:791:20:device_find	12	static
 mtdparts.c:838:12:device_parse	96	static
 mtdparts.c:1043:5:mtd_id_parse	32	static
 mtdparts.c:1348:5:find_dev_and_part	48	static

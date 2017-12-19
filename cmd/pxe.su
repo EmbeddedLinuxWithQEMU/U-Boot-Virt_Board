@@ -19,9 +19,9 @@ pxe.c:1082:12:handle_include	48	static
 pxe.c:1306:12:parse_pxefile_top	88	static
 pxe.c:1414:25:parse_pxefile	24	static
 pxe.c:275:12:get_pxelinux_path	152	static
-pxe.c:369:1:do_pxe_get	64	static
+pxe.c:369:1:do_pxe_get	56	static
 pxe.c:424:12:get_relfile_envaddr	24	static
-pxe.c:616:12:label_boot	2272	static
+pxe.c:616:12:label_boot	736	static
 pxe.c:1524:13:handle_pxe_menu	56	static
 pxe.c:1567:1:do_pxe_boot	24	static
 pxe.c:1646:12:do_sysboot	32	static

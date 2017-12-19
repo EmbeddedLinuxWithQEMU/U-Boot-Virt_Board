@@ -1,5 +1,8 @@
 fdtdec.c:641:20:get_prop_check_min_len	24	static
 fdtdec.c:76:13:fdtdec_get_compatible	0	static
+fdtdec.c:199:5:fdtdec_get_pci_addr	32	static
+fdtdec.c:253:5:fdtdec_get_pci_vendev	40	static
+fdtdec.c:291:5:fdtdec_get_pci_bar32	8	static
 fdtdec.c:308:10:fdtdec_get_uint64	24	static
 fdtdec.c:321:5:fdtdec_get_is_enabled	8	static
 fdtdec.c:338:20:fdtdec_lookup	24	static
@@ -16,10 +19,10 @@ fdtdec.c:578:5:fdtdec_check_fdt	8	static
 fdtdec.c:616:5:fdtdec_lookup_phandle	8	static
 fdtdec.c:658:5:fdtdec_get_int_array	32	static
 fdtdec.c:1058:12:decode_timing_property	40	static
-fdtdec.c:674:5:fdtdec_get_int_array_count	16	static
+fdtdec.c:674:5:fdtdec_get_int_array_count	24	static
 fdtdec.c:694:12:fdtdec_locate_array	24	static
 fdtdec.c:705:5:fdtdec_get_bool	16	static
-fdtdec.c:715:5:fdtdec_parse_phandle_with_args	48	static
+fdtdec.c:715:5:fdtdec_parse_phandle_with_args	40	static
 fdtdec.c:839:5:fdtdec_get_child_count	16	static
 fdtdec.c:850:5:fdtdec_get_byte_array	24	static
 fdtdec.c:862:11:fdtdec_locate_byte_array	24	static
@@ -27,7 +30,7 @@ fdtdec.c:874:5:fdtdec_get_config_int	16	static
 fdtdec.c:886:5:fdtdec_get_config_bool	16	static
 fdtdec.c:900:7:fdtdec_get_config_string	24	static
 fdtdec.c:918:5:fdtdec_decode_region	16	static
-fdtdec.c:940:5:fdtdec_get_number	16	static
+fdtdec.c:940:5:fdtdec_get_number	12	static
 fdtdec.c:83:12:fdtdec_get_addr_size_fixed	40	static
 fdtdec.c:138:12:fdtdec_get_addr_size_auto_parent	40	static
 fdtdec.c:164:12:fdtdec_get_addr_size_auto_noparent	40	static
@@ -36,7 +39,7 @@ fdtdec.c:192:12:fdtdec_get_addr	0	static
 fdtdec.c:950:5:fdt_get_resource	40	static
 fdtdec.c:984:5:fdt_get_named_resource	24	static
 fdtdec.c:997:5:fdtdec_decode_memory_region	104	static
-fdtdec.c:1082:5:fdtdec_decode_display_timing	24	static
+fdtdec.c:1082:5:fdtdec_decode_display_timing	32	static
 fdtdec.c:1150:5:fdtdec_setup_memory_size	24	static
 fdtdec.c:1175:5:fdtdec_setup_memory_banksize	24	static
 fdtdec.c:1261:5:fdtdec_setup	8	static

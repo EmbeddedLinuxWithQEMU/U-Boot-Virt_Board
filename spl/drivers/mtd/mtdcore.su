@@ -5,7 +5,7 @@ mtdcore.c:128:5:idr_alloc	8	static
 mtdcore.c:153:18:__mtd_next_device	16	static
 mtdcore.c:509:5:del_mtd_device	8	static
 mtdcore.c:729:5:__get_mtd_device	8	static
-mtdcore.c:694:18:get_mtd_device	8	static
+mtdcore.c:694:18:get_mtd_device	16	static
 mtdcore.c:757:18:get_mtd_device_nm	16	static
 mtdcore.c:840:6:__put_mtd_device	8	static
 mtdcore.c:831:6:put_mtd_device	0	static

@@ -1,4 +1,4 @@
-cmd_drivers/i2c/i2c-uclass-compat.o := /home/anil/EmbeddedLinux_Tools/BBB_Compiler/gcc-linaro-6.4.1-2017.08-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Wp,-MD,drivers/i2c/.i2c-uclass-compat.o.d  -nostdinc -isystem /home/anil/EmbeddedLinux_Tools/BBB_Compiler/gcc-linaro-6.4.1-2017.08-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/6.4.1/include -Iinclude    -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -fshort-wchar -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -Werror=date-time -D__ARM__ -Wa,-mimplicit-it=always -mthumb -mthumb-interwork -mabi=aapcs-linux -mword-relocations -fno-pic -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a -D__LINUX_ARM_ARCH__=7 -I./arch/arm/mach-omap2/include    -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(i2c_uclass_compat)"  -D"KBUILD_MODNAME=KBUILD_STR(i2c_uclass_compat)" -c -o drivers/i2c/i2c-uclass-compat.o drivers/i2c/i2c-uclass-compat.c
+cmd_drivers/i2c/i2c-uclass-compat.o := arm-linux-gnueabi-gcc -Wp,-MD,drivers/i2c/.i2c-uclass-compat.o.d  -nostdinc -isystem /usr/lib/gcc-cross/arm-linux-gnueabi/5/include -Iinclude    -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -fshort-wchar -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -Werror=date-time -D__ARM__ -Wa,-mimplicit-it=always -mthumb -mthumb-interwork -mabi=aapcs-linux -mword-relocations -fno-pic -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a -D__LINUX_ARM_ARCH__=7 -I./arch/arm/mach-omap2/include    -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(i2c_uclass_compat)"  -D"KBUILD_MODNAME=KBUILD_STR(i2c_uclass_compat)" -c -o drivers/i2c/i2c-uclass-compat.o drivers/i2c/i2c-uclass-compat.c
 
 source_drivers/i2c/i2c-uclass-compat.o := drivers/i2c/i2c-uclass-compat.c
 
@@ -302,7 +302,7 @@ deps_drivers/i2c/i2c-uclass-compat.o := \
   include/linux/posix_types.h \
   include/linux/stddef.h \
   arch/arm/include/asm/posix_types.h \
-  /home/anil/EmbeddedLinux_Tools/BBB_Compiler/gcc-linaro-6.4.1-2017.08-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/6.4.1/include/stdbool.h \
+  /usr/lib/gcc-cross/arm-linux-gnueabi/5/include/stdbool.h \
   arch/arm/include/asm/bitops.h \
   arch/arm/include/asm/proc-armv/system.h \
     $(wildcard include/config/cpu/sa1100.h) \
@@ -313,7 +313,7 @@ deps_drivers/i2c/i2c-uclass-compat.o := \
   include/asm-generic/bitops/fls64.h \
   include/linux/bug.h \
   include/vsprintf.h \
-  /home/anil/EmbeddedLinux_Tools/BBB_Compiler/gcc-linaro-6.4.1-2017.08-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/6.4.1/include/stdarg.h \
+  /usr/lib/gcc-cross/arm-linux-gnueabi/5/include/stdarg.h \
   include/linux/build_bug.h \
   include/linux/printk.h \
     $(wildcard include/config/loglevel.h) \
@@ -385,7 +385,7 @@ deps_drivers/i2c/i2c-uclass-compat.o := \
     $(wildcard include/config/spl/fit/image/post/process.h) \
     $(wildcard include/config/fit/image/post/process.h) \
   include/compiler.h \
-  /home/anil/EmbeddedLinux_Tools/BBB_Compiler/gcc-linaro-6.4.1-2017.08-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/6.4.1/include/stddef.h \
+  /usr/lib/gcc-cross/arm-linux-gnueabi/5/include/stddef.h \
   arch/arm/include/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/linux/byteorder/swab.h \
